@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Quiz-container{
+  width:50%;
+  background-color: white;
+  margin:10em auto;
+  border-radius: 5px;
+  padding:2em;
+}
+.options div{
+  border:1px solid grey;
+  margin-top:1em;
+  padding:1em;
+  border-radius:5px;
+}
+.options div:active{
+    background-color:rgb(209, 197, 197);
 }
